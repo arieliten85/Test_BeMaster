@@ -1,0 +1,26 @@
+Para el diseño y estructura de una aplicación de comercio electrónico, una de las tecnologías más destacadas que utilizaría sería Node.js,
+ gracias a su gran versatilidad. Al estar basada en JavaScript, permite un rápido desarrollo tanto para el backend como para el frontend.
+
+La organización de archivos básica que implementaría sería la siguiente:
+
+/ecommerce-backend
+|-- /src
+|   |-- /controllers
+|   |-- /models
+|   |-- /services
+|   |-- /middlewares
+|   |-- /routes
+|   |-- /utils
+|   |-- app.js (o main.js)
+|-- /config
+|-- /migrations
+|-- /seeds
+|-- package.json
+|-- .gitignore
+|-- README.md
+
+Para la implementación del patrón de diseño, optaría por MVC (Model-View-Controller), 
+el cual permite separar las responsabilidades de lógica, presentación y gestión de datos.
+
+Estas decisiones ayudarán a estructurar y organizar el código de manera eficiente, 
+facilitando el mantenimiento y escalabilidad del sistema.
