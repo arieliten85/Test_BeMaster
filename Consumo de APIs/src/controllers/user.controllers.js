@@ -17,7 +17,7 @@ const getUsersMostPopular = async (req = request, res = response) => {
     );
 
     // Get only the specified number of repositories based on the limit
-    const limitedRepos = limit ? repos.slice(0, parseInt(limit)) : repos;
+    const limitedRepos = limit ? reposSorted.slice(0, parseInt(limit)) : repos;
 
     res.json(limitedRepos);
   } catch (error) {
